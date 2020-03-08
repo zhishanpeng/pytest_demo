@@ -1,0 +1,10 @@
+article_testdata:
+-   ["测试", true]
+-   ["aaaaaxx", true]
+-   ["11111", true]
+
+# 针对哪个用例的
+xxxxx_testdata:
+-   ["测试", true]
+-   ["aaaaaxx", true]
+-   ["11111", true]
