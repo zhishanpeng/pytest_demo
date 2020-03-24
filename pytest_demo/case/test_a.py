@@ -1,3 +1,7 @@
+import os,sys
+
+sys.path.append(os.getcwd())
+
 import pytest
 
 @pytest.mark.webtest

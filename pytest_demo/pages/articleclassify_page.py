@@ -1,5 +1,5 @@
-from web_pytest_x.common.base import Base
-from web_pytest_x.common.config import host
+from common.base import Base
+from common.config import host
 import allure
 
 class ArticlclassifyPage(Base):
@@ -34,8 +34,8 @@ class ArticlclassifyPage(Base):
 
 if __name__ == '__main__':
     from selenium import webdriver
-    from common.base import Base
-    from pages.login_page import LoginPage
+    from web_pytest_x.common.base import Base
+    from web_pytest_x.pages.login_page import LoginPage
     driver = webdriver.Chrome()
     driver.maximize_window()
     web = LoginPage(driver)

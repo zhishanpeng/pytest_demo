@@ -1,4 +1,4 @@
-from web_pytest_x.pages.login_page import LoginPage
+from pages.login_page import LoginPage
 from selenium import webdriver
 import pytest
 import time

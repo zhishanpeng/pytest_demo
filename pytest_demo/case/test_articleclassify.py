@@ -1,10 +1,13 @@
-from web_pytest_x.pages.login_page import LoginPage
+import os,sys
+sys.path.append(os.getcwd())
+
+from pages.login_page import LoginPage
 from selenium import webdriver
-from web_pytest_x.common.base import Base
-from web_pytest_x.pages.login_page import LoginPage
-from web_pytest_x.pages.articleclassify_page import ArticlclassifyPage
+from common.base import Base
+from pages.login_page import LoginPage
+from pages.articleclassify_page import ArticlclassifyPage
 import pytest
-from web_pytest_x.common.read_yml import readyml
+from common.read_yml import readyml
 import os
 import allure
 

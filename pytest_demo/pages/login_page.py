@@ -1,5 +1,5 @@
-from web_pytest_x.common.base import Base
-from web_pytest_x.common.config import host
+from common.base import Base
+from common.config import host
 import allure
 
 login_url = host+"/xadmin/"
